@@ -1,0 +1,15 @@
+site_name: Jacq's Blog
+site_description: This is my blog for keeping track of dev stuff
+# site_url: 
+
+nav:
+  - Home: index.md
+  - Blog:
+    - blog/index.md
+  # - About: about.md
+theme:
+  name: material
+  features:
+    - navigation.indexes
+plugins:
+  - blog
